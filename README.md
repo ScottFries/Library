@@ -17,6 +17,7 @@ In the future, this may be translated to a more feature-rich application.
   * [Python](Languages/Python.md)
 * [Other](Other)
   * [Algorithms](Other/Algorithms.md)
+  * [Concurrency](Other/Concurrency.md)
   * [Data Structures](Other/DataStructures.md)
   * [Graphics](Other/Graphics.md)
   * [Machine Learning](Other/MachineLearning.md)
