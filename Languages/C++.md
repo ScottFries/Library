@@ -13,6 +13,11 @@
 * [Fluent C++](https://www.fluentcpp.com/)
 * [C++ Truths](http://cpptruths.blogspot.com/)
 * [Simplify C++](https://arne-mertz.de/)
+* [Bartek's coding blog](https://www.bfilipek.com/)
+
+
+# Compilers
+* [C++ Compiler Support](https://en.cppreference.com/w/cpp/compiler_support)
 
 
 # Events
@@ -42,9 +47,21 @@
 # Tools
 * [Quick C++ Benchmark](http://quick-bench.com/)
 * [Godbolt (Compiler Explorer)](https://godbolt.org/)
+* [Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/index.html) - clang-tidy is a clang-based C++ “linter” tool. Its purpose is to provide an extensible framework for diagnosing and fixing typical programming errors, like style violations, interface misuse, or bugs that can be deduced via static analysis.
+* [ThreadSanitizer](https://clang.llvm.org/docs/ThreadSanitizer.html) - ThreadSanitizer is a tool that detects data races.
+* [CppMem](http://svr-pes20-cppmem.cl.cam.ac.uk/cppmem/help.html) - CppMem is a tool to let one explore the behaviour of small concurrent test programs in the relaxed memory model.
 
 
 # Articles
+
+## API Design
+* [Top 25 C++ API design mistakes and how to avoid them](https://www.acodersjourney.com/top-25-cplusplus-api-design-mistakes-and-how-to-avoid-them/)
+
+## Build Tools
+
+### CMake
+* [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
+* [It's Time To Do CMake Right](https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/)
 
 ## Exceptions
 
@@ -60,20 +77,21 @@
   * [Garbage Collection and Memory Allocation Sizes](http://bitsquid.blogspot.com/2013/01/garbage-collection-and-memory.html)
   * [Allocation Adventures](http://bitsquid.blogspot.com/2015/06/allocation-adventures-1-datacomponent.html)
 
-# Move Semantics
+### Tutorials
+* [C++ Custom Memory Allocation](https://www.gamedev.net/articles/programming/general-and-gameplay-programming/c-custom-memory-allocation-r3010/)
+* [Building your own memory manager for C/C++ projects](https://www.ibm.com/developerworks/aix/tutorials/au-memorymanager/) - IBM's Developerworks tutorial on memory managers.
+
+## Move Semantics
 * [Move Semantics](https://mbevin.wordpress.com/2012/11/20/move-semantics/)
 
 ## Template Metaprogramming (TMP)
 * [C++ Template Metaprogramming Introduction](https://monoinfinito.wordpress.com/series/introduction-to-c-template-metaprogramming/)
+* [Template meta-functions for detecting template instantiation](https://cukic.co/2019/03/15/template-meta-functions-for-detecting-template-instantiation/)
 
 ## Patterns
 
 ### The Curiously Recurring Template Pattern (CRTP)
 * [The Curiously Recurring Template Pattern (CRTP)](https://www.fluentcpp.com/2017/05/12/curiously-recurring-template-pattern/)
-
-### Tutorials
-* [C++ Custom Memory Allocation](https://www.gamedev.net/articles/programming/general-and-gameplay-programming/c-custom-memory-allocation-r3010/)
-* [Building your own memory manager for C/C++ projects](https://www.ibm.com/developerworks/aix/tutorials/au-memorymanager/) - IBM's Developerworks tutorial on memory managers.
 
 ## Standards
 * [What is POSIX, any other interface standards which can replace it?](https://stackoverflow.com/questions/19697152/what-is-posix-any-other-interface-standards-which-can-replace-it)
