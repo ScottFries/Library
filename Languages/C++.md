@@ -1,4 +1,5 @@
 * [ISO C++](https://isocpp.org/)
+* [The C++ Standards Committee - ISOCPP](http://www.open-std.org/JTC1/SC22/WG21/)
 
 
 # Guidelines
@@ -10,10 +11,12 @@
 
 # Blogs
 * [ISO Blog](https://isocpp.org/blog)
+* [Microsoft C++ Team Blog](https://devblogs.microsoft.com/cppblog/)
 * [Fluent C++](https://www.fluentcpp.com/)
 * [C++ Truths](http://cpptruths.blogspot.com/)
 * [Simplify C++](https://arne-mertz.de/)
 * [Bartek's coding blog](https://www.bfilipek.com/)
+* [Sutter's Mill](https://herbsutter.com/)
 
 
 # Compilers
@@ -63,6 +66,12 @@
 * [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
 * [It's Time To Do CMake Right](https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/)
 
+## Performance Analysis
+* ["Top-Down performance analysis methodology"](https://easyperf.net/blog/2019/02/09/Top-Down-performance-analysis-methodology)
+
+## Optimization
+* ["Machine code layout optimizations"](https://easyperf.net/blog/2019/03/27/Machine-code-layout-optimizatoins)
+
 ## Exceptions
 
 ### Language Behavior
@@ -83,6 +92,7 @@
 
 ## Move Semantics
 * [Move Semantics](https://mbevin.wordpress.com/2012/11/20/move-semantics/)
+* ["Beware of copies with std::initializer_list!"](https://tristanbrindle.com/posts/beware-copies-initializer-list)
 
 ## Template Metaprogramming (TMP)
 * [C++ Template Metaprogramming Introduction](https://monoinfinito.wordpress.com/series/introduction-to-c-template-metaprogramming/)
